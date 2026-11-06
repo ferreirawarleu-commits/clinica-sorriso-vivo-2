@@ -1,0 +1,17 @@
+@import "tailwindcss";
+
+@theme {
+  --color-foam: #f3efe6;
+  --color-ink: #1a2824;
+  --color-clinic: #123f3b;
+  --color-clinic-soft: #1c5c54;
+  --color-line: #e5ddd0;
+  --color-card: #fffdf9;
+  --color-gold: #e0b56a;
+  --color-muted: #6d645b;
+}
+
+body {
+  background: var(--color-foam);
+  color: var(--color-ink);
+}
